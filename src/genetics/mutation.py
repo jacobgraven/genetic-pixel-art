@@ -1,3 +1,5 @@
+# NOTE: random/regular gauss mutations are very slow
+
 import numpy as np
 
 def random_mutation(img, max_px=25):
