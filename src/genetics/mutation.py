@@ -50,7 +50,7 @@ def gaussian_mutation(img, px_rate=0.4, std=25, mean=0):
                 mutated[i][j][1] += dG
                 mutated[i][j][2] += dB
 
-                # mutated[i][j][2] += [dR, dG, dB]
+                # mutated[i][j][:] += [dR, dG, dB]
 
                 mutated[i][j] = np.clip(mutated[i][j], 0, 255)
 
