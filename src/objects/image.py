@@ -33,7 +33,7 @@ class ImageBuilder:
         self.image_id = uuid.uuid4()
         if(name_id == None):
             self.filename = "image-%s.jpg"%(str(self.image_id)[0:4])
-            fp = (r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\results\image-" 
+            fp = (r"../images/results/image-" 
              + str(self.image_id)[0:4] 
              + r".jpg")
         
@@ -41,8 +41,8 @@ class ImageBuilder:
         else:
             id = str(name_id)
             self.filename = "image-%s.jpg"%(id[0:6])
-            fp = (r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\results\image-" 
-                + id[0:2] 
+            fp = (r"../images/results/image-" 
+                + id[0:6] 
                 + r".jpg")
             image.save(fp, 'JPEG')
 
