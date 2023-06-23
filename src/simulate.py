@@ -5,7 +5,7 @@ from genetics.evolution import *
 from objects.image import ImageBuilder, ImagePixelator
 
 
-TARGET_FILEPATH = r"..\images\input-examples\squidward.jpg" # change to valid image/path
+TARGET_FILEPATH = r"../images/input-examples/squidward.jpg" # change to valid image/path
 NUM_PIXELS = 32
 NUM_POPULATION = 100
 NUM_GENERATIONS = 15000
