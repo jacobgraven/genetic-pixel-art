@@ -1,1 +1,1 @@
-# Genetic Pixel Art | Evolution-based image reconstruction
+# Genetic Pixel Art | Simulating Evolution For Image Reconstruction
