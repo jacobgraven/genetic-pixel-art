@@ -4,7 +4,8 @@ from genetics.population import generate_population
 from genetics.evolution import *
 from objects.image import ImageBuilder, ImagePixelator
 
-TARGET_FILEPATH = r"../images/input-examples/test3.jpg"
+# FIX PATH HERE
+# TARGET_FILEPATH = r"../images/input-examples/flowers.jpg"
 
 NUM_PIXELS = 45
 NUM_POPULATION = 250
