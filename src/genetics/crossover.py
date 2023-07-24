@@ -1,4 +1,4 @@
-## NOTE: blend/bias/coinflip are very slow and inefficient
+## NOTE: blend/bias/coinflip are very slow 
 
 import numpy as np
 
