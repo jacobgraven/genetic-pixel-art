@@ -1,1 +1,1 @@
-# genetic-pixel-art
+# Genetic Pixel Art | Image Reconstruction & Genetic Algorithms
