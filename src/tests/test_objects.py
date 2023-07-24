@@ -3,7 +3,7 @@ from uuid import uuid4 as id
 from pathlib import Path
 
 from objects.image import ImagePixelator, ImageBuilder
-from genetics.population import generate_population  #, generate_gray_population
+from genetics.population import generate_population
 from genetics.evolution import *
 
 
@@ -11,7 +11,8 @@ from genetics.evolution import *
 N_POPULATION = 10
 N_PIXELS = 32
 
-image_data = ImagePixelator(r"..\images\input-examples\cats/cleo.jpg", 32)
+# FIX PATH HERE
+# image_data = ImagePixelator(r"..\images\input-examples\cats/cleo.jpg", 32)
 
 
 target_arr = image_data.pixel_array
