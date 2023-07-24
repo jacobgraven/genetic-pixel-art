@@ -3,23 +3,15 @@ from uuid import uuid4 as id
 from pathlib import Path
 
 from objects.image import ImagePixelator, ImageBuilder
-from genetics.population import generate_population  # , generate_gray_population
+from genetics.population import generate_population  #, generate_gray_population
 from genetics.evolution import *
 
-# EXAMPLE_MONKEY = r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\input-examples\monkey.jpg"
-# EXAMPLE_CLEO = r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\input-examples\cleo.jpg"
-# EXAMPLE_STONKY = r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\input-examples\stonky.jpg"
-# EXAMPLE_MINECRAFT = r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\input-examples\minecraft.png"
-# EXAMPLE_MINECRAFT2 = r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\input-examples\minecraft2.jpg"
 
-
-FILEPATH = None
+# FILEPATH = None
 N_POPULATION = 10
 N_PIXELS = 32
 
-# image_data = PixelPIL(r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\input-examples\monkey.jpg", 20)
-# image_data = ImagePixelator(r"C:\Users\Jake\Desktop\Genetic Pixel Art\genalg-pixel-art\images\input-examples\monkey.jpg", 20)
-image_data = ImagePixelator(r"..\images\input-examples\test2.jpg", 32)
+image_data = ImagePixelator(r"..\images\input-examples\cats/cleo.jpg", 32)
 
 
 target_arr = image_data.pixel_array
