@@ -12,3 +12,7 @@ This code has no UI so custom inputs require you to change the image path in the
 
 <img src="images/input-examples/cats/cleo.jpg" alt="Cleo Input Image" width="200" height="200">
 <img src="images/results/result-cleo.jpg" alt="Output 3 (Cleo)" width="200" height="200">
+
+
+<img src="images/input-examples/misc/squidward.jpg" alt="Squidward Input Image" width="200" height="200">
+<img src="images/results/result-squidward1.jpg" alt="Output 4" width="200" height="200">
